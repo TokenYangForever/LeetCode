@@ -12,3 +12,4 @@ LeetCode上面解题的源码<br>
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
 599  | [Minimum Index Sum of Two Lists]() | Easy
+380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
