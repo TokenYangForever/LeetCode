@@ -15,4 +15,5 @@ LeetCode上面解题的源码<br>
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
+611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
