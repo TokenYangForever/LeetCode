@@ -12,6 +12,7 @@ LeetCode上面解题的源码<br>
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
+387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)  |  Easy
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
