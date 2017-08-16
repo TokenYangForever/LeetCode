@@ -8,8 +8,10 @@ LeetCode上面解题的源码<br>
 1    | [Two Sum](https://leetcode.com/problems/two-sum/tabs/description)     | Easy
 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/tabs/description)     | Medium
 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/tabs/description)     | Easy
+53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
+343  | [Integer Break](https://leetcode.com/problems/integer-break/description/)  |  Medium
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)  |  Easy
