@@ -14,6 +14,7 @@ LeetCode上面解题的源码<br>
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)  | Easy
+287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
 343  | [Integer Break](https://leetcode.com/problems/integer-break/description/)  |  Medium
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
