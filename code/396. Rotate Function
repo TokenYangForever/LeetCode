@@ -1,0 +1,22 @@
+/**
+ * @param {number[]} A
+ * @return {number}
+ * 观察F(0)到F(1)的变化
+ */
+var maxRotateFunction = function(A) {
+    let len = A.length
+    if(len==0){return 0}
+    let sum = 0
+    let f0 = 0
+    let r = 0
+    for (var i = 0; i < len; i++) {
+        sum += A[i]
+        f0 += A[i]*i
+    }
+    r = f0
+    for (var i = len - 1; i > 0; i--) {
+        f0 = f0 + sum - len*A[i]
+        r = Math.max(f0, r)
+    }
+    return r
+};
