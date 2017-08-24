@@ -11,6 +11,7 @@ LeetCode上面解题的源码<br>
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 62   | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)  |   Medium
 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)  |  Medium
+86   | [Partition List](https://leetcode.com/problems/partition-list/description/)  | Medium
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)  | Easy
