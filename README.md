@@ -12,9 +12,11 @@ LeetCode上面解题的源码<br>
 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 62   | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)  |   Medium
+63   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  |  Medium
 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)  |  Medium
 86   | [Partition List](https://leetcode.com/problems/partition-list/description/)  | Medium
 120  | [Triangle](https://leetcode.com/problems/triangle/description/)  |  Medium
+121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  |  Easy
 136  | [Single Number](https://leetcode.com/problems/single-number/description/)  |  Easy
 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)  |  Medium
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
@@ -24,6 +26,7 @@ LeetCode上面解题的源码<br>
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
 343  | [Integer Break](https://leetcode.com/problems/integer-break/description/)  |  Medium
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
+350  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)  |  Easy
 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)  |  Easy
 396  | [Rotate Function](https://leetcode.com/problems/rotate-function/description/)  |  Medium
