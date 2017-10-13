@@ -1,0 +1,46 @@
+/**
+ * @param {number[][]} matrix
+ * @return {number}
+ */
+var longestIncreasingPath = function(matrix) {
+    if (!matrix || matrix.length === 0) {
+        return 0
+    }
+          
+    var direct = [[0, -1], [0, 1], [-1, 0], [1, 0]] // 方向数组
+    var max = 1 // 最大值
+    var dp = new Array() // dp二维数组保存每个点作为起点的最大值
+    var width = matrix[0].length
+    var deep = matrix.length
+    while (deep) {
+        dp.push(new Array(width).fill(0))
+        deep--
+    }
+    deep = matrix.length
+    
+    var dfs = function (i, j) {
+        if (dp[i][j] > 0) return dp[i][j];
+        var mx = 1
+        for (var k = 0; k < direct.length; k++) {
+            var x = i + direct[k][0]
+            var y = j + direct[k][1]
+            if (x < 0 || x >= deep || y < 0 || y >=width) { // 超过范围
+                continue
+            }
+            if (matrix[x][y] <= matrix[i][j]) {
+                continue
+            }
+            var len = dfs(x, y) + 1
+            mx = Math.max(mx, len)
+        }
+        dp[i][j] = mx
+        return mx
+    }
+
+    for (var i = 0; i < deep; i++) {
+        for (var j = 0; j < width; j++) {
+            max = Math.max(max, dfs(i, j))
+        }
+    }
+    return max
+};
