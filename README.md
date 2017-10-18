@@ -46,4 +46,4 @@ LeetCode上面解题的源码<br>
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
-650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/  |  Medium
+650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)  |  Medium
