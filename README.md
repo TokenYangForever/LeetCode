@@ -22,6 +22,8 @@ LeetCode上面解题的源码<br>
 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)  |  Medium
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
+192  | [Word Frequency](https://leetcode.com/problems/word-frequency/description/)  |  Medium
+195  | [Tenth Line](https://leetcode.com/problems/tenth-line/description/)  |  Easy
 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)  | Easy
 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)  |  Medium
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
