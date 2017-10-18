@@ -19,6 +19,7 @@ LeetCode上面解题的源码<br>
 120  | [Triangle](https://leetcode.com/problems/triangle/description/)  |  Medium
 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  |  Easy
 136  | [Single Number](https://leetcode.com/problems/single-number/description/)  |  Easy
+139  | [Word Break](https://leetcode.com/problems/word-break/description/)  |  Medium
 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)  |  Medium
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
@@ -45,3 +46,4 @@ LeetCode上面解题的源码<br>
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
+650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/  |  Medium
