@@ -21,6 +21,7 @@ LeetCode上面解题的源码<br>
 136  | [Single Number](https://leetcode.com/problems/single-number/description/)  |  Easy
 139  | [Word Break](https://leetcode.com/problems/word-break/description/)  |  Medium
 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)  |  Medium
+168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)  |  Easy
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
 192  | [Word Frequency](https://leetcode.com/problems/word-frequency/description/)  |  Medium
@@ -41,6 +42,7 @@ LeetCode上面解题的源码<br>
 404  | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)  |  Easy
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
+462  | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)  |  Medium
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
