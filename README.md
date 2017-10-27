@@ -42,6 +42,7 @@ LeetCode上面解题的源码<br>
 404  | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)  |  Easy
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
+459  | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)  |  Easy
 462  | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)  |  Medium
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
