@@ -27,6 +27,7 @@ LeetCode上面解题的源码<br>
 192  | [Word Frequency](https://leetcode.com/problems/word-frequency/description/)  |  Medium
 195  | [Tenth Line](https://leetcode.com/problems/tenth-line/description/)  |  Easy
 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)  | Easy
+207  | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)  |  Medium
 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)  |  Medium
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
