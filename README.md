@@ -10,6 +10,8 @@ LeetCode上面解题的源码<br>
 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/tabs/description)     | Easy
 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)  |  Medium
 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
+45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  |  Hard
+55   | [Jump Game](https://leetcode.com/problems/jump-game/description/)  |  Medium
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 62   | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)  |   Medium
 63   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  |  Medium
