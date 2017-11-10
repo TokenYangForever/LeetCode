@@ -1,6 +1,7 @@
 # LeetCode<br>
 编程语言：JavaScript<br>
 LeetCode上面解题的源码<br>
+心得：刷题最好按AC通过率从高到低
 [leetcode](https://leetcode.com/tokenyangforever/)
 
 题号  | 题目名称 | 难度
