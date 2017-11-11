@@ -45,6 +45,7 @@ LeetCode上面解题的源码<br>
 396  | [Rotate Function](https://leetcode.com/problems/rotate-function/description/)  |  Medium
 404  | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)  |  Easy
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
+413  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)  |  Medium
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
 459  | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)  |  Easy
 462  | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)  |  Medium
@@ -55,3 +56,4 @@ LeetCode上面解题的源码<br>
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
 650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)  |  Medium
+693  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)  |  Easy
