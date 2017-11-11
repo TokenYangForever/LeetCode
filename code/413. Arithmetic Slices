@@ -1,0 +1,21 @@
+/**
+ * @param {number[]} A
+ * @return {number}
+ */
+var numberOfArithmeticSlices = function(A) {
+    let result = 0
+    if (!A || A.length < 3) {
+        return result
+    }
+    for (let i = 0; i < A.length - 2; i++) {
+        let sub = A[i + 1] - A[i]
+        for (let j = i + 2;j < A.length; j++) {
+            if (A[j] === A[j - 1] + sub) {
+                result++
+            } else {
+                break
+            }
+        }
+    }
+    return result
+};
