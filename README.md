@@ -2,7 +2,7 @@
 编程语言：JavaScript<br>
 LeetCode上面解题的源码<br>
 心得：刷题最好按AC通过率从高到低
-[leetcode](https://leetcode.com/tokenyangforever/)
+* [leetcode](https://leetcode.com/tokenyangforever/)
 
 题号  | 题目名称 | 难度
 :--- | :------:| ---
@@ -52,8 +52,10 @@ LeetCode上面解题的源码<br>
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
 476  | [Number Complement](https://leetcode.com/problems/number-complement/description/)  |  Easy
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
+520  | [Detect Capital](https://leetcode.com/problems/detect-capital/description/)  |  Easy
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
 650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)  |  Medium
 693  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)  |  Easy
+696  | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)  |  Easy
