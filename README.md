@@ -49,6 +49,7 @@ LeetCode上面解题的源码<br>
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
 413  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)  |  Medium
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
+455  | [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)  |  Easy
 459  | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)  |  Easy
 462  | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/)  |  Medium
 473  | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)  | Medium
@@ -62,3 +63,4 @@ LeetCode上面解题的源码<br>
 693  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)  |  Easy
 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)  |  Easy
 696  | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)  |  Easy
+718  | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) |  Medium
