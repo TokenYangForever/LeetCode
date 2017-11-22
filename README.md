@@ -19,6 +19,7 @@ LeetCode上面解题的源码<br>
 63   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  |  Medium
 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)  |  Medium
 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)  |  Medium
+75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)  |  Medium
 86   | [Partition List](https://leetcode.com/problems/partition-list/description/)  | Medium
 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)  |  Easy
 120  | [Triangle](https://leetcode.com/problems/triangle/description/)  |  Medium
@@ -34,6 +35,7 @@ LeetCode上面解题的源码<br>
 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)  | Easy
 207  | [Course Schedule](https://leetcode.com/problems/course-schedule/description/)  |  Medium
 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)  |  Medium
+234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)  |  Easy
 260  | [Single Number III](https://leetcode.com/problems/single-number-iii/description/)  |  Medium
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
