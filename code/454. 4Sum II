@@ -1,0 +1,30 @@
+/**
+ * @param {number[]} A
+ * @param {number[]} B
+ * @param {number[]} C
+ * @param {number[]} D
+ * @return {number}
+ * 用一个Map结构hash保存A与B中的各项和，再拿E去和C/D中的和作比较
+ */
+var fourSumCount = function(A, B, C, D) {
+    var hash = new Map();
+    const n = A.length;
+    
+    for(var i=0; i<n; i++){
+        for(var j=0; j<n; j++){
+            var x = hash.get(A[i] + B[j]) || 0;
+            hash.set(A[i] + B[j], ++x);
+        }
+    }
+    
+    
+    var result = 0;
+    
+    for(var i=0; i<n; i++){
+        for(var j=0; j<n; j++){
+            result += hash.get(-C[i] - D[j]) || 0;
+        }
+    }
+    
+    return result;
+};
