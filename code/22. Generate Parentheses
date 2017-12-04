@@ -1,0 +1,25 @@
+/**
+ * @param {number} n
+ * @return {string[]}
+ * str: 当前字符串
+ * leftCounts: 当前未配对的左括号数目，不能小于1
+ * bracketsCounts: 剩余未配对括号数目
+ */
+var generateParenthesis = function(n) {
+    let result = []
+    function dfs (str, leftCounts, bracketsCounts) {
+        if (leftCounts === 0) {
+            str += '('
+            leftCounts++
+            dfs(str, leftCounts, bracketsCounts)
+        } else if (leftCounts === bracketsCounts){
+            str+=')'.repeat(leftCounts)
+            result.push(str)
+        } else {
+            dfs(str+'(', leftCounts+1, bracketsCounts)
+            dfs(str+')', leftCounts-1, bracketsCounts-1)
+        }
+    }
+    dfs ('(', 1, n)
+	return result
+};
