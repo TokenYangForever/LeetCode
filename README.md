@@ -10,6 +10,7 @@ LeetCode上面解题的源码<br>
 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/tabs/description)     | Medium
 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/tabs/description)     | Easy
 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)  |  Medium
+22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  |  Medium
 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)  |  Medium
 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  |  Hard
