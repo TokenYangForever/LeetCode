@@ -1,0 +1,24 @@
+/**
+ * @param {number[][]} wall
+ * @return {number}
+ * dp 表示每一排缝隙位置
+ */
+var leastBricks = function(wall) {
+    let dp = {}
+    let max = wall.length
+    let count = 0
+    for (let i = 0; i < max; i++) {
+        let temp = wall[i]
+        let sum = 0
+        for (let j = 0; j < temp.length - 1; j++) {
+            sum += temp[j]
+            if (dp[sum]) {
+                dp[sum] += 1
+            } else {
+                dp[sum] = 1
+            }
+            count = Math.max(count, dp[sum])
+        }
+    }
+    return max - count
+};
