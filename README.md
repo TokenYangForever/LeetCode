@@ -46,6 +46,7 @@ LeetCode上面解题的源码<br>
 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)  |  Easy
 343  | [Integer Break](https://leetcode.com/problems/integer-break/description/)  |  Medium
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
+347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)  |  Medium
 350  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)  |  Easy
 373  | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) | Medium
 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
