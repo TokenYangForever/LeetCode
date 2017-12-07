@@ -67,6 +67,7 @@ LeetCode上面解题的源码<br>
 476  | [Number Complement](https://leetcode.com/problems/number-complement/description/)  |  Easy
 507  | [Perfect Number](https://leetcode.com/problems/perfect-number/tabs/description) | Easy
 520  | [Detect Capital](https://leetcode.com/problems/detect-capital/description/)  |  Easy
+539  | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/)  |  Medium
 554  | [Brick Wall](https://leetcode.com/problems/brick-wall/description/)  |  Medium
 557  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)  |  Easy
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
