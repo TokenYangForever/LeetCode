@@ -1,0 +1,18 @@
+/**
+ * @param {string[]} timePoints
+ * @return {number}
+ */
+var findMinDifference = function(timePoints) {
+    timePoints = timePoints.map(item => toMins(item)).sort((a,b) => a - b)
+    let len = timePoints.length
+    let min = 1440 + timePoints[0] - timePoints[len - 1]
+    for (let i = 1; i < len; i++) {
+        min = Math.min(min, Math.abs(timePoints[i] - timePoints[i - 1]))
+    }
+    function toMins (str) {
+        str = str.split(':').map(item => Number(item))
+        return str[0]*60 + str[1]
+    }
+
+    return min
+};
