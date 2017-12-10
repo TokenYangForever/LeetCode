@@ -12,7 +12,8 @@ LeetCode上面解题的源码<br>
 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)  |  Medium
 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  |  Medium
 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
-39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)  |  Medium
+36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)  |  Medium
+39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)  |  Medium
 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  |  Hard
 55   | [Jump Game](https://leetcode.com/problems/jump-game/description/)  |  Medium
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
