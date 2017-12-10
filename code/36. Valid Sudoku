@@ -1,0 +1,35 @@
+/**
+ * @param {character[][]} board
+ * @return {boolean}
+ * xindex 横轴、 yindex 纵轴、 dpindex 九宫格；遍历到每个非空点时，依次判断他所属的上述三个中有没有重复的
+ */
+var isValidSudoku = function(board) {
+    let dp = {}
+    for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+            let temp = board[i][j]
+            if (temp !== '.') {
+                let xIndex = 'x' + j
+                let yIndex = 'y' + i
+                let areaIndex = 'area' + Math.floor(j/3) + Math.floor(i/3)
+                if (!dp[xIndex]) {
+                    dp[xIndex] = new Map()
+                }
+                if (!dp[yIndex]) {
+                    dp[yIndex] = new Map()
+                }
+                if (!dp[areaIndex]) {
+                    dp[areaIndex] = new Map()
+                }
+                if (dp[xIndex].has(temp) || dp[yIndex].has(temp) || dp[areaIndex].has(temp)) {
+                    return false
+                } else {
+                    dp[xIndex].set(temp, true)
+                    dp[yIndex].set(temp, true)
+                    dp[areaIndex].set(temp, true)
+                }
+            }
+        }
+    }
+    return true
+};
