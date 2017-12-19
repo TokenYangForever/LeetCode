@@ -44,6 +44,7 @@ LeetCode上面解题的源码<br>
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)  |   Hard
+334  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)  |  Medium
 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)  |  Easy
 343  | [Integer Break](https://leetcode.com/problems/integer-break/description/)  |  Medium
 344  | [Reverse String](https://leetcode.com/problems/reverse-string/tabs/description) | Easy
