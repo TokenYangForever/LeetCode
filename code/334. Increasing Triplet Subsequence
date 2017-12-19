@@ -1,0 +1,20 @@
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ * 动态规划：floor表示三个中最小数，top表示中间那个数，如果得到一个数大于top并且top不为-1，则满足条件
+ */
+var increasingTriplet = function(nums) {
+    let top = -1
+    let floor = nums[0]
+    for (let i = 0; i < nums.length; i++) {
+       if (top!= -1 && nums[i] > top) {
+           return true
+       }
+        if (nums[i] > floor) {
+            top = nums[i]
+        } else {
+            floor = nums[i]
+        }
+    }
+    return false
+};
