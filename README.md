@@ -54,6 +54,7 @@ LeetCode上面解题的源码<br>
 380  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/tabs/submissions/1/)  | Medium
 383  | [Ransom Note](https://leetcode.com/problems/ransom-note/description/)  |  Easy
 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)  |  Easy
+389  | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)  |  Easy
 396  | [Rotate Function](https://leetcode.com/problems/rotate-function/description/)  |  Medium
 404  | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)  |  Easy
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
