@@ -1,0 +1,28 @@
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {character}
+ */
+var findTheDifference = function(s, t) {
+    let result = ''
+    let dp = {}
+    let len = t.length
+    for (let i in s) {
+         if (dp[s[i]]) {
+             dp[s[i]]++
+         } else {
+             dp[s[i]] = 1
+         }
+    }
+    for (let i in t) {
+        if (dp[t[i]]) {
+            dp[t[i]] -= 1
+            if (dp[t[i]] == 0) {
+                delete dp[t[i]]
+            }
+        } else {
+            result += t[i]
+        }
+    }
+    return result
+};
