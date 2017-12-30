@@ -1,0 +1,20 @@
+/**
+ * @param {number[][]} matrix
+ * @return {void} Do not return anything, modify matrix in-place instead.
+ */
+var rotate = function(matrix) {
+    function changePoint (i, j, sl) {
+        let temp = matrix[i][j]
+        matrix[i][j] = matrix[sl - j][i]
+        matrix[sl - j][i] = matrix[sl -i][sl - j]
+        matrix[sl -i][sl - j] = matrix[j][sl - i]
+        matrix[j][sl - i] = temp
+    }
+    let n = matrix.length
+    let half = Math.floor(n/2)
+    for (let i = 0; i < half; i++) {
+        for (let j = i; j < n - i - 1; j++) {
+            changePoint(i, j, n - 1)
+        }
+    }
+};
