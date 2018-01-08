@@ -1,0 +1,27 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var nthUglyNumber = function(n) {
+    let i3 = 0
+	let i2 = 0
+	let i5 = 0
+	let dp = [1]
+    while (dp.length < n) {
+        let temp2 = dp[i2] * 2
+		let temp3 = dp[i3] * 3
+		let temp5 = dp[i5] * 5
+		let temp = Math.min(temp2, temp3, temp5)
+		if (temp == temp2) {
+			i2++
+		}
+		if (temp == temp3) {
+			i3++
+		}
+		if (temp == temp5) {
+			i5++
+		}
+		dp.push(temp)
+    }
+    return dp.pop()
+};
