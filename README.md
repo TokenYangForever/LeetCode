@@ -44,6 +44,8 @@ LeetCode上面解题的源码<br>
 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)  |  Medium
 240  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)  |  Medium
 260  | [Single Number III](https://leetcode.com/problems/single-number-iii/description/)  |  Medium
+263  | [Ugly Number](https://leetcode.com/problems/ugly-number/description/)  |  Easy
+264  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)  |  Medium
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)  |   Hard
