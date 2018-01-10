@@ -1,0 +1,30 @@
+/**
+ * @param {number[][]} dungeon
+ * @return {number}
+ * 同样适用dp求每个点的最佳生命值，但是要逆序
+ */
+var calculateMinimumHP = function(dungeon) {
+    let dp = []
+    function compute (target, self) {
+       if (target > 0) {
+           return target >= self ? 1 : self - target
+       } else {
+           return self - target
+       }
+    }
+	let h = dungeon.length - 1
+    let w = dungeon[0].length - 1
+    dp[h] = []
+    dp[h][w] = compute(dungeon[h][w], 1)
+    for (let i = w - 1; i >=0; i--) {
+        dp[h][i] = compute(dungeon[h][i], dp[h][i + 1])
+    }
+    for (let i = h - 1; i >= 0; i--) {
+        dp[i] = []
+        dp[i][w] = compute(dungeon[i][w], dp[i+1][w])
+        for (let j = w - 1; j >= 0; j--) {
+            dp[i][j] = Math.min(compute(dungeon[i][j], dp[i+1][j]), compute(dungeon[i][j], dp[i][j+1]))
+        }
+    }
+    return dp[0][0]
+};
