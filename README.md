@@ -32,6 +32,7 @@ LeetCode上面解题的源码<br>
 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)  |  Medium
 168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)  |  Easy
 169  | [Majority Element](https://leetcode.com/problems/majority-element/description/)  |  Easy
+174  | [Dungeon Game](https://leetcode.com/problems/dungeon-game/description/)  |  Hard
 179  | [Largest Number](https://leetcode.com/problems/largest-number/description/)  | Medium
 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)    | Easy
 192  | [Word Frequency](https://leetcode.com/problems/word-frequency/description/)  |  Medium
