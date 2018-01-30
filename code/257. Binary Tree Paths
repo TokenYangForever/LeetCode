@@ -1,0 +1,29 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {string[]}
+ */
+var binaryTreePaths = function(root) {
+    let result = []
+    if (!root || !root.val) {
+        return []
+    }
+    function findLeaf (node, str) {
+        if (node.left) {
+            findLeaf(node.left, str + '->' + node.left.val)
+        } 
+        if (node.right) {
+            findLeaf(node.right, str + '->' + node.right.val)
+        } else if (!node.left) {
+            result.push(str)
+        }
+    }
+    findLeaf(root, '' + root.val)
+    return result
+};
