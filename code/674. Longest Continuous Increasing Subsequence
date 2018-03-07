@@ -1,0 +1,22 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findLengthOfLCIS = function(nums) {
+    if (!nums || nums.length == 0) {
+        return 0
+    }
+    let dpcount = 1
+    let result = 1
+    let dpLast = nums[0]
+    for (let i = 1; i < nums.length; i++) {
+        if (nums[i] > dpLast) {
+            dpcount++
+        } else {
+            result = Math.max(dpcount, result)
+            dpcount = 1
+        }
+        dpLast = nums[i]
+    }
+    return Math.max(dpcount, result)
+};
