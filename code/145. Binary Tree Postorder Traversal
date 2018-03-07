@@ -1,0 +1,30 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+var postorderTraversal = function(root) {
+    let result = []
+    if (!root || !root.val) {
+        return result
+    }
+    function searchFun (node) {
+        if (node.val != null) {
+            if (node.left) {
+                searchFun(node.left)
+            }
+            if (node.right) {
+                searchFun(node.right)
+            }
+            result.push(node.val)
+        }
+    }
+    searchFun(root)
+    return result
+};
