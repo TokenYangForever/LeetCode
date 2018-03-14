@@ -84,6 +84,7 @@ LeetCode上面解题的源码<br>
 554  | [Brick Wall](https://leetcode.com/problems/brick-wall/description/)  |  Medium
 566  | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)  |  Easy
 557  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)  |  Easy
+595  | [Big Countries](https://leetcode.com/problems/big-countries/description/)  |  Easy
 599  | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) | Easy
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
