@@ -92,6 +92,7 @@ LeetCode上面解题的源码<br>
 650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)  |  Medium
 657  | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/) |  Easy
 674  | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)  |  Easy
+678  | [有效的括号字符串](https://leetcode-cn.com/problems/valid-parenthesis-string/description/)  |  中等
 693  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)  |  Easy
 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)  |  Easy
 696  | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)  |  Easy
