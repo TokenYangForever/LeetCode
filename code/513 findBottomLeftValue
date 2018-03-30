@@ -27,3 +27,22 @@ var findBottomLeftValue = function(root) {
     serch(root, 0)
     return dp.pop()
 };
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ * 方法二
+ */
+var findBottomLeftValue = function(root) {
+    let arr = [root]
+    let node = {}
+    while (arr.length > 0) {
+        node = arr.shift()
+        if (node.right) {
+            arr.push(node.right)
+        }
+        if (node.left) {
+            arr.push(node.left)
+        }
+    }
+    return node.val
+};
