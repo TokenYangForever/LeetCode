@@ -68,6 +68,7 @@ LeetCode上面解题的源码<br>
 396  | [Rotate Function](https://leetcode.com/problems/rotate-function/description/)  |  Medium
 404  | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)  |  Easy
 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)  |  Medium
+412  | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/description/)  |  Easy
 413  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/description/)  |  Medium
 442  | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/tabs/description) | Medium
 451  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)  |  Medium
