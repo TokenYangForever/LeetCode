@@ -1,0 +1,21 @@
+/**
+ * @param {number} n
+ * @return {string[]}
+ */
+var fizzBuzz = function(n) {
+    let i = 1
+    let result = []
+    while (i <= n) {
+        let dp
+        if (i % 3 === 0) {
+            dp = i % 5 === 0 ? 'FizzBuzz' : 'Fizz'
+        } else if (i % 5 === 0) {
+            dp = 'Buzz'
+        } else {
+            dp = '' + i
+        }
+        result.push(dp)
+        i++
+    }
+    return result
+};
