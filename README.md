@@ -11,7 +11,8 @@ LeetCode上面解题的源码<br>
 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/tabs/description)     | Easy
 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)  |  Medium
 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  |  Medium
-35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
+34   | [search for a range](https://leetcode-cn.com/problems/search-for-a-range/description/)   |  Medium
+35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)  |  Medium
 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)  |  Medium
 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  |  Hard
