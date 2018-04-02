@@ -1,0 +1,26 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var searchRange = function(nums, target) {
+    let i = 0
+    let result = [-1, -1]
+    let j = nums.length
+    while (i < j) {
+        if (nums[i] === target) {
+            if (result[0] === -1) {
+              result[0] = i
+            } else {
+              result[1] = i  
+            }
+        } else if (nums[i] > target) {
+            break
+        }
+        i++
+    }
+    if (result[0] > -1 && result[1] === -1) {
+        result[1] = result[0]
+    }
+    return result
+};
