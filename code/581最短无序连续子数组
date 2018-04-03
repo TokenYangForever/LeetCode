@@ -1,0 +1,26 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findUnsortedSubarray = function(nums) {
+    let dpMax = nums[0] // 遍历时出现的最大值，后面小于它的都将被移动
+    let dpMin = Number.MAX_VALUE // 需要挪动的最小数字
+    let maxIndex = 0 // 最后一个需要挪动的数字
+    for (let i = 1; i < nums.length; i++) {
+        if (nums[i] < dpMax) {
+            dpMin = Math.min(dpMin, nums[i])
+            maxIndex = i
+        } else {
+            dpMax = nums[i]
+        }
+    }
+	
+    if (maxIndex === 0) {
+        return 0
+    }
+    for (let j = 0; j < nums.length; j++) {
+        if (nums[j] > dpMin) {
+            return maxIndex - j + 1
+        }
+    }
+};581
