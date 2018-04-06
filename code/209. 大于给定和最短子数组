@@ -1,0 +1,24 @@
+/**
+ * @param {number} s
+ * @param {number[]} nums
+ * @return {number}
+ */
+var minSubArrayLen = function(s, nums) {
+    let result = 0
+    for (let i = 0; i < nums.length; i++) {
+        let sum = nums[i]
+        let dpSum = 1
+        if (sum >= s) {
+            return dpSum
+        }
+        for (let j = i + 1; j < nums.length; j++) {
+            sum += nums[j]
+            dpSum += 1
+            if (sum >= s) {
+                result = result === 0 ? dpSum : Math.min(result, dpSum)
+                break
+            }
+        }
+    }
+    return result
+};
