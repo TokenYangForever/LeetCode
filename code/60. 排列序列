@@ -1,0 +1,29 @@
+var getPermutation = function(n, k) {
+    let dp = ''
+    let result = ''
+    for (let i = 1; i <= n; i++) {
+        dp += i
+    }
+    function getFactorial (num) {
+        let sum = 1
+        while (num > 1) {
+            sum *= num
+            num--
+        }
+        return sum
+    }
+    while (k > 2) {
+        let temp = getFactorial(dp.length - 1)
+        let index = 0
+        if (k > temp) {
+            index = Math.ceil(k / temp) - 1
+            k -= index * temp
+        }
+        result += dp[index]
+        dp = dp.replace(dp[index], '')
+    }
+	if (k === 2) {
+		dp = dp.substring(0, dp.length - 2) + dp[dp.length - 1] + dp[dp.length - 2]
+	}
+    return result += dp
+};
