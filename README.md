@@ -20,6 +20,7 @@ LeetCode上面解题的源码<br>
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 55   | [Jump Game](https://leetcode.com/problems/jump-game/description/)  |  Medium
 59   | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)  |  Medium
+60   | [permutation sequence](https://leetcode-cn.com/problems/permutation-sequence/description/)  |  Medium
 62   | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)  |   Medium
 63   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  |  Medium
 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)  |  Medium
