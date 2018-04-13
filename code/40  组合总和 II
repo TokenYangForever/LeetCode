@@ -1,0 +1,30 @@
+/**
+ * @param {number[]} candidates
+ * @param {number} target
+ * @return {number[][]}
+ */
+var combinationSum2 = function(candidates, target) {
+    candidates.sort((a, b) => a - b)
+    let result = []
+    let dp = {}
+    function loop (i, left, arr) {
+        while (i < candidates.length) {
+            let item = candidates[i]
+            if (item === left) {
+                let temp = [...arr, item]
+                if (!dp[temp.toString()]) {
+                   dp[temp.toString()] = true
+                    result.push(temp)
+                }
+                result.push()
+            } else if (item < left) {
+                loop(i + 1, left - item, [...arr, item])
+            } else {
+                break
+            }
+            i++
+        }
+    }
+    loop(0, target, [])
+    return result
+};
