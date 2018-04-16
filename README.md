@@ -97,6 +97,7 @@ LeetCode上面解题的源码<br>
 611  | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/)  |  Medium
 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy
 620  | [有趣的电影](https://leetcode-cn.com/problems/not-boring-movies/description/)  |  Easy
+627  | [swap salary](https://leetcode-cn.com/problems/swap-salary/description/)  |  Easy
 648  | [Replace Words](https://leetcode.com/problems/replace-words/description/)  |  Medium
 650  | [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/)  |  Medium
 657  | [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/) |  Easy
