@@ -1,0 +1,26 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+var averageOfLevels = function(root) {
+    let result = []
+    function searchLoop (node, index) {
+        if (!result[index]) {
+            result[index] = []
+        }
+        result[index].push(node.val)
+        node.left && searchLoop(node.left, index + 1)
+        node.right && searchLoop(node.right, index + 1)
+    }
+    searchLoop(root, 0)
+    return result.map(item => {
+        return item.reduce((total, cur) => total + cur)/item.length
+    })
+};
