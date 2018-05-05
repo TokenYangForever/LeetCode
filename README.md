@@ -10,7 +10,8 @@ LeetCode上面解题的源码<br>
 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/tabs/description)     | Medium
 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/tabs/description)     | Easy
 11   | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)  |  Medium
-22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  |  Medium
+21   | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)  |   Easy
+22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)  |  Medium
 34   | [search for a range](https://leetcode-cn.com/problems/search-for-a-range/description/)   |  Medium
 35   | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)  |  Easy
 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)  |  Medium
