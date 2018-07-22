@@ -111,3 +111,4 @@ LeetCode上面解题的源码<br>
 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)  |  Easy
 696  | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)  |  Easy
 718  | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) |  Medium
+771  | [Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/description/)  |  Easy
