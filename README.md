@@ -18,6 +18,7 @@ LeetCode上面解题的源码<br>
 39   | [Combination Sum](https://leetcode.com/problems/combination-sum/description/)  |  Medium
 40   | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/description/)  |  Medium
 45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  |  Hard
+46   | [全排列](https://leetcode-cn.com/problems/permutations/description/)  |  Medium
 48   | [Rotate Image](https://leetcode.com/problems/rotate-image/description/)  |  Medium
 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)  |  Easy
 55   | [Jump Game](https://leetcode.com/problems/jump-game/description/)  |  Medium
@@ -26,6 +27,7 @@ LeetCode上面解题的源码<br>
 62   | [Unique Paths](https://leetcode.com/problems/unique-paths/description/)  |   Medium
 63   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/)  |  Medium
 64   | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)  |  Medium
+70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/)  |  easy
 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)  |  Medium
 75   | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)  |  Medium
 86   | [Partition List](https://leetcode.com/problems/partition-list/description/)  | Medium
