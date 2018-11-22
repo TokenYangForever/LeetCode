@@ -1,0 +1,18 @@
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var permute = function(nums) {
+    if (nums.length === 1) {
+        return [nums]
+    }
+    let result = []
+    for (let i = 0; i < nums.length; i++) {
+        result = result.concat(
+            permute([...nums.slice(0, i), ...nums.slice(i + 1)]).map(
+                item => [nums[i], ...item]
+            )
+        )
+    }
+    return result
+};
