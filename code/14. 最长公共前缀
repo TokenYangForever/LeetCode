@@ -1,0 +1,15 @@
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+var longestCommonPrefix = function(strs) {
+    strs.sort((a,b) => a.length - b.length)
+    for (let index in strs[0]) {
+        for (let j = 1; j < strs.length; j++) {
+            if (strs[j][index] !== strs[0][index]) {
+                return strs[0].substring(0, index)
+            }
+        }
+    }
+    return strs[0] || ''
+};
