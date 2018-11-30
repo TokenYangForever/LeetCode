@@ -96,6 +96,7 @@ LeetCode上面解题的源码<br>
 539  | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/)  |  Medium
 554  | [Brick Wall](https://leetcode.com/problems/brick-wall/description/)  |  Medium
 566  | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/)  |  Easy
+567  | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)  |  Medium
 557  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)  |  Easy
 581  | [最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/description/)  |  Easy
 594  | [最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/description/)  |  Easy
