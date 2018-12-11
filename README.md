@@ -55,6 +55,7 @@ LeetCode上面解题的源码<br>
 209  | [大于给定和最短子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/description/)  |  Medium
 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)  |  Medium
 216  | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)  |  Medium
+230  | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)  |  Medium
 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)  |  Easy
 235  | [搜索二叉树最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)  |  easy
 236  | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)  |  Medium
