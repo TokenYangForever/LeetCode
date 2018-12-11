@@ -66,6 +66,7 @@ LeetCode上面解题的源码<br>
 264  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/)  |  Medium
 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)  |  Medium
 290  | [Word Pattern](https://leetcode.com/problems/word-pattern/description/)    | Easy
+292  | [Nim游戏](https://leetcode-cn.com/problems/nim-game/)  |  Easy
 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/)  |   Hard
 334  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)  |  Medium
 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)  |  Easy
