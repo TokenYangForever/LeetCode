@@ -1,0 +1,27 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} k
+ * @return {number}
+ */
+function searchTree(root) {
+    let temp = []
+    if (root.left) {
+        temp = temp.concat(searchTree(root.left))
+    }
+    temp.push(root.val)
+    if (root.right) {
+        temp = temp.concat(searchTree(root.right))
+    }
+    return temp
+}
+var kthSmallest = function(root, k) {
+    let result = searchTree(root)
+    return result[k - 1]
+};
